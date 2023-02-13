@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(141, 55, 184, 0.575);
+}
+h1{
+    font-size: 60px;
+}
+
+@media only screen and (max-width:500px){
+    body{
+        background-color: rgb(49, 108, 218);
+    }
+
+    h1{
+        font-size: 25px;
+    }
+}
+@media only screen and (min-width:501px) and (max-width:750px) {
+    body{
+        background-color: aqua;
+    }
+    h1{
+        font-size: 40px;
+    }
+    p{
+        display: none;
+    }
+}
